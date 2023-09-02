@@ -1,0 +1,43 @@
+# Environnement Virtuel
+virtual-env/
+*.venv/
+venv/
+env/
+.env
+
+# Bytecode Python
+__pycache__/
+*.py[cod]
+*.pyc
+
+# Fichiers IDE et éditeurs
+.idea/
+.vscode/
+*.swp
+*.swo
+*.swn
+
+# Fichiers temporaires et de sauvegarde
+*.bak
+*.tmp
+*.temp
+*.log
+
+# Fichiers de base de données locale
+*.db
+*.sqlite
+
+# Fichiers générés
+dist/
+build/
+*.egg-info/
+
+# Fichiers spécifiques à AWS
+.aws/
+.aws-sam/
+
+# Autres fichiers sensibles
+secrets.yml
+.env.local
+
+/.serverless
